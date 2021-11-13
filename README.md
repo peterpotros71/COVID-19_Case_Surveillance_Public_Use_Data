@@ -1,4 +1,5 @@
 # COVID-19_Case_Surveillance_Public_Use_Data
+
 ` `**Content**
 
 - Problem type & the process
@@ -10,7 +11,7 @@
 
 **Problem Type & The Process**
 
-The problem we are trying to solve is classification problem to see whither the COVID-19 patient died or not based on the features in the dataset. The process starts with **exploring the dataset**  which is performing some statistical analysis on the dataset to see the problems in the dataset, and to see the features and its correlation with our target variable. Then comes the **data visualization** which is plotting different charts that gives us the insights about the dataset to know the nature of the dataset. After that, comes the **preprocessing** which is applying some functions that cleans the dataset and makes it ready to undergo the **modeling phase** which includes assessing different models to see which model is the best performing model and fine tune it to acquire the highest accuracy possible. 
+The problem we are trying to solve is classification problem to see whether the COVID-19 patient died or not based on the features in the dataset. The process starts with **exploring the dataset**  which is performing some statistical analysis on the dataset to see the problems in the dataset, and to see the features and its correlation with our target variable. Then comes the **data visualization** which is plotting different charts that gives us the insights about the dataset to know the nature of the dataset. After that, comes the **preprocessing** which is applying some functions that cleans the dataset and makes it ready to undergo the **modeling phase** which includes assessing different models to see which model is the best performing model and fine tune it to acquire the highest accuracy possible. 
 
 **Technical details**
 
@@ -68,6 +69,10 @@ The above plot shows whither the covid cases committed to the hospital or not an
 
 The above plots show the number of reported covid cases during the months of the year of 2020 and as we can notice as we move towards the end of the year the number of cases increases.
 
+![](time_series.jpeg)
+
+The Above plot shows the number of cases per day through the whole year divided into male and female. And as we can see from this plot that the number of cases is increasing as the days goes by and there is a huge peak of cases from June to July.
+
 **Preprocessing: Dealing with the missing data**
 
 After exploring the data and noticing the huge amounts of missing data, we performed a thresholding technique that drops the row if has null values more than a certain constant threshold.
@@ -81,7 +86,37 @@ And then, we applied a machine learning model that predicts the missing values. 
 The above plots show the missing values distributed among the other column values and as noticed the model did a good job predicting the missing values of these columns.
 
 **Model selection and evaluation.**
-The random forest scored an accuracy of 89.9%.
+
+To obtain useful information from this dataset, a classification model was selected to predict the class of the new patient. Various networks were tested like:
+  -	Random forest .
+  -	AdaBoost Classifier.
+  - Neural Network.
+
+**The random forest** scored an accuracy of 89.9%. As shown in the confusion matrix, the classes are distributed logically as the class “No” got the most records and the “Yes” class got the least.
+
+![](confusion-matrix1.jpeg)
+
+![](confusion-matrix2.png)
+
+**The neural network** scored an accuracy of 89%. The neural network architecture was composed of 4 fully connected hidden layers with a SoftMax activation on the output to classify the 3 classes. Below are the confusion matrix and the classification report of the neural network model.
+
+![](confusion-matrix3.png)
+
+![](confusion-matrix4.png)
+
+
+**The AdaBoost Classifier** scored an accuracy of 82%. The AdaBoost scored the least accuracy score among the tested models. 
+
+![](confusion-matrix5.jpeg)
+
+![](confusion-matrix6.png)
+
+**Comparing the Models**
+
+As shown in the figure, the random forest and the neural network scored almost the same accuracy, then comes the AdaBoost classifier.
+The random forest execution time is faster than the neural network.
+
+![](comparing.jpeg)
 
 **Certificate**
 
