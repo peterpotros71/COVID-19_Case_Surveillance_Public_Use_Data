@@ -85,4 +85,9 @@ The random forest scored an accuracy of 89.9%.
 
 **Certificate**
 
-![](machinfy internship.jpeg)
+![](machinfy-internship.jpeg)
+
+
+        
+    
+
