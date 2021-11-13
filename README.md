@@ -46,37 +46,25 @@ And the target variable is:
 
 Some plots were created in order to give us some insights about the dataset and what are the information that we can acquire from such a dataset.
 
-![Chart
-
-Description automatically generated](Aspose.Words.0ab75558-a745-495e-98e4-d536ea588b4b.004.png)
+![](Aspose.Words.0ab75558-a745-495e-98e4-d536ea588b4b.004.png)
 
 The above plot shows the death rate with respect to the confirmed cases and as noticed the death rate is much higher in the laboratory confirmed cases that the probable cases.
 
-![Chart
-
-Description automatically generated](Aspose.Words.0ab75558-a745-495e-98e4-d536ea588b4b.005.png)
+![](Aspose.Words.0ab75558-a745-495e-98e4-d536ea588b4b.005.png)
 
 The above plot gives us information about the number of deaths and the difference of the numbers of deaths with respect to the hospital commitment status. And it is noticed that the number of deaths within the patients who didn’t commit to the hospital are higher than the patients who went to the hospital.
 
-![Chart, bar chart
-
-Description automatically generated](Aspose.Words.0ab75558-a745-495e-98e4-d536ea588b4b.006.png)
+![](Aspose.Words.0ab75558-a745-495e-98e4-d536ea588b4b.006.png)
 
 The above plot gives us information about the death rates with respect to the age group. And as noticed that the number of deaths gets higher as we move to older people.
 
-![Chart, histogram
-
-Description automatically generated](Aspose.Words.0ab75558-a745-495e-98e4-d536ea588b4b.007.png)
+![](Aspose.Words.0ab75558-a745-495e-98e4-d536ea588b4b.007.png)
 
 The above plot shows whither the covid cases committed to the hospital or not and we can notice that the number of the patient with laboratory confirmed cases committed to the hospital more that the probable cases did but the number of confirmed covid-19 cases who didn’t commit to the hospital are very high.
 
-![Chart, histogram
+![](Aspose.Words.0ab75558-a745-495e-98e4-d536ea588b4b.008.png)
 
-Description automatically generated](Aspose.Words.0ab75558-a745-495e-98e4-d536ea588b4b.008.png)
-
-![A computer screen capture
-
-Description automatically generated with low confidence](Aspose.Words.0ab75558-a745-495e-98e4-d536ea588b4b.009.png)
+![](Aspose.Words.0ab75558-a745-495e-98e4-d536ea588b4b.009.png)
 
 The above plots show the number of reported covid cases during the months of the year of 2020 and as we can notice as we move towards the end of the year the number of cases increases.
 
@@ -93,3 +81,8 @@ And then, we applied a machine learning model that predicts the missing values. 
 The above plots show the missing values distributed among the other column values and as noticed the model did a good job predicting the missing values of these columns.
 
 **Model selection and evaluation.**
+The random forest scored an accuracy of 89.9%.
+
+**Certificate**
+
+![](machinfy internship.jpeg)
