@@ -69,7 +69,7 @@ The above plot shows whither the covid cases committed to the hospital or not an
 
 The above plots show the number of reported covid cases during the months of the year of 2020 and as we can notice as we move towards the end of the year the number of cases increases.
 
-![](time_series.jpeg)
+![](time_series.jpg)
 
 The Above plot shows the number of cases per day through the whole year divided into male and female. And as we can see from this plot that the number of cases is increasing as the days goes by and there is a huge peak of cases from June to July.
 
@@ -94,7 +94,7 @@ To obtain useful information from this dataset, a classification model was selec
 
 **The random forest** scored an accuracy of 89.9%. As shown in the confusion matrix, the classes are distributed logically as the class “No” got the most records and the “Yes” class got the least.
 
-![](confusion-matrix1.jpeg)
+![](confusion-matrix1.jpg)
 
 ![](confusion-matrix2.png)
 
@@ -107,7 +107,7 @@ To obtain useful information from this dataset, a classification model was selec
 
 **The AdaBoost Classifier** scored an accuracy of 82%. The AdaBoost scored the least accuracy score among the tested models. 
 
-![](confusion-matrix5.jpeg)
+![](confusion-matrix5.jpg)
 
 ![](confusion-matrix6.png)
 
@@ -116,7 +116,7 @@ To obtain useful information from this dataset, a classification model was selec
 As shown in the figure, the random forest and the neural network scored almost the same accuracy, then comes the AdaBoost classifier.
 The random forest execution time is faster than the neural network.
 
-![](comparing.jpeg)
+![](comparing.jpg)
 
 **Certificate**
 
